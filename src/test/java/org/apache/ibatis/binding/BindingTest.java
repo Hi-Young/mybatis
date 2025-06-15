@@ -57,6 +57,7 @@ import org.junit.Test;
 public class BindingTest {
   private static SqlSessionFactory sqlSessionFactory;
 
+  
   @BeforeClass
   public static void setup() throws Exception {
     DataSource dataSource = BaseDataTest.createBlogDataSource();
